@@ -1,0 +1,16 @@
+categories:
+- Demos
+- realworld
+questions:
+- variable: ingress.enabled
+  default: "false"
+  description: "Enable ingress"
+  type: boolean
+  required: true
+  label: Ingress ou pas ggggggg ?
+- variable: ingress.hosts[0].host
+  default: "demoxxxx.wmars.xyz"
+  description: "FQDN"
+  type: string
+  required: true
+  label: FQDN ?
